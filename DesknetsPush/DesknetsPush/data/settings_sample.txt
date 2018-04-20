@@ -1,0 +1,4 @@
+https://your.desknetsUrl/
+username
+password
+https://your.slackIncomingWebhookUrl/
