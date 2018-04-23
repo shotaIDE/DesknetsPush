@@ -65,8 +65,7 @@ namespace DesknetsPush
                 throw new Exception();
             }
             string getUrl = desknetsUrlMatch[1] + userName + ":" + password + "@" + desknetsUrlMatch[2];
-            //browser.Url = getUrl;
-            browser.Url = "http://ide.sakura.ne.jp/";
+            browser.Url = getUrl;
 
             var myWeekSchedule = browser.FindElement(By.ClassName(MY_WEEK_CLASS));
             var myDaySchedule = myWeekSchedule.FindElement(By.ClassName(DAY_CLASS));
